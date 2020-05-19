@@ -39,3 +39,6 @@ Run theses files by order and download dataset
 5. predict the response.py
 6. Run Islamic chatbot.py
 
+### References
+* [Python Chatbot](https://data-flair.training/blogs/python-chatbot-project/)
+
