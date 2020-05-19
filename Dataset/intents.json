@@ -1,0 +1,328 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you to know more about Islam. If you are looking to learn more about Islam whether or not you are a Muslim, or know somebody who is afraid of it, then this is for you"],
+         "context": [""]
+        },
+        
+        {"tag": "foundational sources",
+         "patterns": [" What are the foundational sources of Islamic beliefs and practices?" ],
+         "responses": ["The primary sources of knowledge about Islam are the Qur’an and the Sunnah"],
+         "context": []
+        },
+		{"tag": "Ash-hadu",
+         "patterns": ["Ash-hadu is an Arabic word that has three meanings. What are they?"],
+         "responses": ["To know, to believe, and to declare."],
+         "context": []
+        },
+		{"tag": "best day",
+         "patterns": ["What is the best day of the week?"],
+         "responses": ["Friday"],
+         "context": []
+        },
+		{"tag": "best month",
+         "patterns": ["What is the best month of the year?"],
+         "responses": ["Ramadan"],
+         "context": []
+        },
+		{"tag": "the Prophet Muhammad",
+         "patterns": ["Where was the Prophet Muhammad born?"],
+         "responses": [" "],
+         "context": []
+        },
+		{"tag": "angels",
+         "patterns": ["What are the angels made from?","How is the word angel said in the Arabic language?","Who are the angels?"],
+         "responses": ["“Malak” is the way to say ‘angel’ in the Arabic language. Angels are made from light; they are not male or female. They have a will and always choose to obey Allah."," The angels are creatures of light. They are Allah's obedient slaves, they do that which they are commanded and are incapable of disobedience."],
+         "context": []
+        },
+		{"tag": "Prophet’s parents",
+         "patterns": ["What are the names of the Prophet’s parents?"],
+         "responses": ["Aminah is his mother’s name, and Abdullah is his father’s name."],
+         "context": []
+        },
+        {"tag": "Qur’an",
+         "patterns": ["How many surahs are there in the Qur’an?"],
+         "responses": ["114 surahs "],
+         "context": []
+        },
+        {"tag": "Juzu'",
+         "patterns": ["What is one of the thirty parts of the Qur’an called in Arabic?"],
+         "responses": [" Juzu' "],
+         "context": []
+        },
+        {"tag": "Khalifas",
+         "patterns": ["What are the names of the four famous Khalifas (rulers)?"],
+         "responses": ["Abu-bakr, Umar, Uthman, and Ali were the four guided khalifas (rulers) after our beloved Prophet died."],
+         "context": []
+        },	
+        {"tag": "Al-Arsh",
+         "patterns": ["The largest creation is size is called Al-Arsh. How do some refer to it in English?","what is Al-Arsh?","what does Al-Arsh mean?"],
+         "responses": ["The Arsh is the largest creation in size; it is the ceiling of Paradise. Some refer to it as the throne."],
+         "context": []
+        },	
+        {"tag": "grave",
+         "patterns": ["What are the names of the two Angels that question the people in the grave?"],
+         "responses": ["Their names are Munkar and Nakir"],
+         "context": []
+        },	
+        {"tag": "shahada",
+         "patterns": ["How does one say the testification of faith (shahada) in English?"],
+         "responses": ["“I believe that no one is God except Allah, and Muhammad is His Messenger. If Muhammad cannot be said correctly than Abul-Qaasim is sufficient. There are other ways to say the shahada."],
+         "context": []
+        },	
+        {"tag": "not decay",
+         "patterns": ["There are three groups of people whose bodies do not decay in the grave. Who are they?"],
+         "responses": ["Prophets, Martyrs, and some Pious Muslims."],
+         "context": []
+        },	
+        {"tag": "the Prophet buried",
+         "patterns": ["It is strongly recommended to visit the Prophet’s grave in Medina and give him salaam. Why was the Prophet buried in Medina and not Mecca?"],
+         "responses": ["The Prophet said that “Prophets should be buried wherever they die.”"],
+         "context": []
+        },	
+        {"tag": "Ar-Raziq",
+         "patterns": ["What is the meaning of the name of Allah Ar-Raziq?"],
+         "responses": ["Ar-Raziq means that the one who makes sustenance reach His slaves. Sustenance is everything that is beneficial whether it is Islamically lawful or not."],
+         "context": []
+        },	
+        {"tag": "Allah's willing",
+         "patterns": ["How does one say “Whatever Allah willed to be shall be “in the Arabic language?"],
+         "responses": ["Ma sha'a Allahu kaan"],
+         "context": []
+        },	
+        {"tag": "Prophet’s tribe",
+         "patterns": ["What is the name of the Prophet’s tribe, and who does it go back to?"],
+         "responses": [" Quraysh goes back to Prophet Isma^il who is the son of Prophet Ibrahim ^alayhimas-salaam."],
+         "context": []
+        },	
+        {"tag": "AL-Wahid",
+         "patterns": ["What is the meaning of the name of Allah AL-Wahid?"],
+         "responses": ["AL-Wahid; means the One without a partner or son."],
+         "context": []
+        },
+        {"tag": "Muslim woman",
+         "patterns": ["Who is the best Muslim woman?"],
+         "responses": ["Maryam alayhas-salaam."],
+         "context": []
+        },
+        {"tag": "Jinns",
+         "patterns": ["What are Jinns made from, and who is the first Jinn?"],
+         "responses": ["Jinns are made from fire. The first Jinn is Satan or Shaytan as known in Arabic. Satan was never an angel."],
+         "context": []
+        },
+        {"tag": "last Juzu",
+         "patterns": ["What is the name of the last Juzu in the Qur’an?"],
+         "responses": ["The last Juzu is called Amma or An-Naba. The last Juzu starts with a surah called  An-Naba"],
+         "context": []
+        },
+        {"tag": "creation",
+         "patterns": ["What is the proof from the Qur’an that Allah is not like the creation?"],
+         "responses": ["Surat As-Shura, Ayah 11 Means, “Absolutely nothing is like Allah."],
+         "context": []
+        },
+        {"tag": "The master of the Ayahs",
+         "patterns": ["What Ayah is called The master of the Ayahs in the Qur’an?"],
+         "responses": ["Ayat Al-Kursiyy, reading this Ayah which is in Surat Al-Baqarah {255} daily will protect you from the evil by the Will and Mercy of Allah"],
+         "context": []
+        },
+        {"tag": "Barak Allahu fik",
+         "patterns": ["What does Barak Allahu fik mean?"],
+         "responses": ["May Allah bless you"],
+         "context": []
+        },
+        {"tag": "Day of Judgment",
+         "patterns": ["How long does the Day of Judgment last?"],
+         "responses": ["The Day of Judgment is a day that lasts for 50,000 years; it will pass quickly, however, for the pious Muslims."],
+         "context": []
+        },
+        {"tag": "witnesses",
+         "patterns": ["One cannot delay a person from taking his/her shahada by any way, if so the “delayer” falls out of Islam. What important matter in Islam requires at least two trustworthy witnesses to be valid?"],
+         "responses": ["To get married, one needs at least two trustworthy male witnesses."],
+         "context": []
+        },
+        {"tag": "special night",
+         "patterns": ["On a special night and in a special month each year Allah gives the Angels knowledge or what will happen in the next year ahead. What is this special night  known as, and what month am I referring to?"],
+         "responses": ["Laylat Al-Qadar (The night of high virtue), and Ramadan"],
+         "context": []
+        },
+        {"tag": "elite jurists",
+         "patterns": ["What are the names of the elite jurists of the four famous school of Islamic guidance and law?"],
+         "responses": ["Imam Malik, Imam Abu-Hanifa, Imam Ash-Shafi^iyy, and Imam Ahmed Ibn Hanbal."],
+         "context": []
+        },
+        {"tag": "Allahumma Salli",
+         "patterns": ["What does it mean when we say  Allahumma Salli Ala Muhammad ? "],
+         "responses": ["We are asking Allah to increase the Prophets honor and rank and to to protect the Prophet’s nation."],
+         "context": []
+        },
+        {"tag": "proof of the inconspicuous polytheism",
+         "patterns": ["What is the proof of the inconspicuous polytheism?"],
+         "responses": ["The proof of the above Shirk is the saying of the Prophet 'The inconspicuous polytheism is more hidden among this nation than the track of a black ant over a black stone on a dark night' (Musnad Ahmad)"],
+         "context": []
+        },
+        {"tag": "conditions of Ibadah",
+         "patterns": ["What are the conditions of Ibadah?"],
+         "responses": ["There are two conditions of Sincerity to Allah and Submission to Allah's Messenger i.e. to act according to his Sunnah."],
+         "context": []
+        },
+        {"tag": "Ibadah",
+         "patterns": ["How would you describe Ibadah?","what is Ibadah?"],
+         "responses": ["It is a comprehensive word comprising deeds and words that Allah loves and is pleased with whether manifested or hidden"],
+         "context": []
+        },
+        {"tag": "greatest thing",
+         "patterns": ["What is the greatest thing that Allah has enjoined?"],
+         "responses": [" The greatest thing Allah has enjoined is Tauhid "," The greatest thing Allah has enjoined is Monotheism"],
+         "context": []
+        },
+        {"tag": "Messenger of Allah?",
+         "patterns": ["What is the meaning of Muhammad is the Messenger of Allah?"],
+         "responses": ["It means total submission to him in whatever he ordered, and avoiding what he forbade and believing in all those matters he informed us about"],
+         "context": []
+        },
+				
+        {"tag": "no God",
+         "patterns": [" What is the cleaning of 'There is no God but Allah'?"],
+         "responses": ["It means there is no true deity except Allah Alone, Negating all false gods and affirming that Allah is the only true God"],
+         "context": []
+        },
+        {"tag": "Qadar",
+         "patterns": ["What is meant by Belief Preordainment Qadar?"],
+         "responses": ["The Belief in Preordainment (Qadar) means to believe that everything — good or bad — happens or takes place according to what Allah has ordained for it. He has created everything in due proportion"],
+         "context": []
+        }
+        ,{"tag": "Tauhid-al-Uluhiyah",
+         "patterns": ["What is Tauhid-al-Uluhiyah?"],
+         "responses": ["It is declaring Allah as the Only God to whom all acts worship must be dedicated such salat (prayers), Zakat, Sawm(fasting), supplications vowing etc."],
+         "context": []
+        },{"tag": "Tauhid-ar-Rububiyah",
+         "patterns": [" What is Tauhid-ar-Rububiyah?"],
+         "responses": ["It is declaring Allah to be One and Unique in His work, Iike creation,sustenance, bringing to life and causing death etc"],
+         "context": []
+        },{"tag": "aspects of Tauhid",
+         "patterns": ["What are the aspects of Tauhid?"],
+         "responses": ["There are three aspects of Tauhid: Tauhid-ar-Rububiyah, Tauhid-al-Uluhiyah and Tauhid-al-Asma was-Sifat."],
+         "context": []
+        },{"tag": "Tauhid",
+         "patterns": ["What is Tauhid ?","what is Islamic Monotheism"],
+         "responses": ["Tauhid means declaring Allah to be the only God who deserves to be worshipped in truth and confirming all attributes with which He has qualified Himself or that are attributed to Him by His Messenger"],
+         "context": []
+        },
+		{"tag": "Tauhid-al-Asma was-Sifat",
+         "patterns": ["What is Tauhid-al-Asma was-Sifat?"],
+         "responses": ["It is an affirmation of all the Divien Names and Attributes of Allah in a manner that suits His Majesty, as mentioned in the Qur'an and the Sunnah."],
+         "context": []
+        },
+		{"tag": "greater polytheism",
+         "patterns": ["What is greater polytheism?", "What is greater sherk?"],
+         "responses": ["The greater polytheism is to devote any form of worship to other than Allah Allah will never forgive one who dies upon Shirk,nor accept his good deeds, and he would be cast out from the folds of Islam"],
+         "context": []
+        },{"tag": "lesser polytheism?",
+         "patterns": ["What is lesser polytheism?","What is lesser sherk?"],
+         "responses": ["A. The lesser polytheism is Ar-Riya, that means the acts of worship done to gain praise or fame rather than to please Allah, this type of polytheism, however, does not cast the person committing it out of the fold of Islam."],
+         "context": []
+        },{"tag": "inconspicuous polytheism",
+         "patterns": ["What is inconspicuous polytheism?"],
+         "responses": ["The inconspicuous polytheism implies being dissatisfied with the conditions ordained by Allah."],
+         "context": []
+        },{"tag": "polytheism",
+         "patterns": [" What is polytheism?","what is sherk?"],
+         "responses": ["It means to believe that there is one who shares Allah in His acts i.e. ascribing partners or setting up rivals to Allah in His rights."],
+         "context": []
+        },{"tag": "Kufr",
+         "patterns": ["Q-40 What are the types of Kufr (disbelief)?"],
+         "responses": ["A. There are two types of Kufr : The majorKufr which cast its people out of Islam and The lessor cr minor Kufr which does not cast the one who commits it out of Islam. It is Kufr of ungratefulness."],
+         "context": []
+        },{"tag": "major Kufr",
+         "patterns": ["What are the types of major Kufr?"],
+         "responses": ["A. There are five types of major Kufr : The Kufr of denial , The Kufr of arrogance associated with recognition of the truth, The Kufr of doubt, The Kufr of disregard and The Kufr of hypocrisy."],
+         "context": []
+        },{"tag": "hypocrisy",
+         "patterns": ["What are the categories of hypocrisy ?"],
+         "responses": [" There are two categories of hypocrisy: hypocrisy in belief and hypocrisy in deeds and actions."],
+         "context": []
+        },{"tag": "Taghut",
+         "patterns": [" What is Taghut?"],
+         "responses": ["Everything that is worshipped. or followed or obeyed other than Allah is Taghut"],
+         "context": []
+        },{"tag": "number of Taghut",
+         "patterns": ["How many Taghut are there and who are their leaders?"],
+         "responses": ["They are many but their leaders are Five"],
+         "context": []
+        },{"tag": "Belief in Allah",
+         "patterns": [" What is Belief in Allah? "],
+         "responses": ["The Belief in Allahi is that you should believe that Allah is the Sole Creator Sustainer Provider and the One in Whose Hand is the disposal of all affairs. Everything stands in need of Him, but He stands in need of none. He is the Only One Who is worthy of being worshipped. He has the Best Names and Perfect Attributes."],
+         "context": []
+        },{"tag": "variation in Iman",
+         "patterns": ["Can there be any variation in Iman?","What do you mean by increase and decrease in Iman?"],
+         "responses": ["By some words and deeds it may increase and by some words and deeds it may decrease.","Iman (Faith) increases by obedience to Allah and good deeds while it decreases by sins and evil acts."],
+         "context": []
+        },{"tag": "Iman",
+         "patterns": ["What is Iman?","What is Faith?"],
+         "responses": ["Iman (Faith) means to believe in the heart, to confess by the tongue and to act with the parts of the body"],
+         "context": []
+        },{"tag": "sending Messengers",
+         "patterns": ["Why did Allah send Messengers?"],
+         "responses": ["Allah has sent Messengers so that they call the people to worship Him Alone, not ascribing any partner with Him, and in order that mankind should have no plea against Allah."],
+         "context": []
+        },{"tag": "worship Allah",
+         "patterns": [" How do you worship Allah?"],
+         "responses": ["I worship Allah in a manner in which all my ibadah is dedicated to Him Alone. I do not ascribe anyone with Him in worship"],
+         "context": []
+        },{"tag": "friends of Allah",
+         "patterns": ["Who are the friends of Allah?"],
+         "responses": ["Those people are the friends of Allah who are pious and righteous, fear Him much abstain from all kinds of sins and perform all kinds of goods, and holdfast to the Qur`an and Sunnah."],
+         "context": []
+        },{"tag": "Allah with us",
+         "patterns": [" Is Allah with us (in person)?","Is Allah with us?"],
+         "responses": ["Allah is settled over His Mighty Throne, but He is with us by His Knowledge, hearing ,seeing and other attributes"],
+         "context": []
+        },{"tag": "allah's place",
+         "patterns": ["Where is Allah?"],
+         "responses": ["Allah is above the heavens raised over the Throne and separated from His creatures"],
+         "context": []
+        },{"tag": "evidence of allah",
+         "patterns": ["How did you know Allah?"],
+         "responses": ["I know Him by His signs and creation like the day and night; the sun and the moon; the heaven and the earth, and all that is there in and between them."],
+         "context": []
+        },{"tag": "islam religion",
+         "patterns": ["What is islam religion?","What is the meaning of Islam ?"],
+         "responses": ["It is submission and obedience to the Order oF Allah and His Messenger with love, hope and fear.","Islam means submission to Allah with Tawhid"],
+         "context": []
+        },{"tag": "Rubb",
+         "patterns": ["Who is your Rubb?","who is allah?"],
+         "responses": ["the Lord,the Creator etc","My Rubb is Allah Who has created me and all that exists. He nourishes me and all creatures by His Bounties"],
+         "context": []
+        }		
+   ]
+}
+
+
+
+
+
+
+
+
+
+
